@@ -5,18 +5,8 @@ nav {
 }
 
 img {
-  width: 300px;
+  width: 800px;
   height: 400px;
-}
-
-.three-columns {
-  display:flex;
-}
-
-/* columns */
-.three-columns > * {
-  width:calc(100% / 3);
-  padding:1rem;
 }
 
 main {
