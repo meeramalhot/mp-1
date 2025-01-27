@@ -1,12 +1,22 @@
 nav {
   float: left;
-  padding-right: 50px;
-  padding-bottom: 500px;
+  padding-right: 40px;
+  padding-bottom: 900px;
 }
 
-img {
-  width: 800px;
-  height: 400px;
+.image1 {
+  width: 180px;
+  height: 180px;
+}
+
+.image2 {
+  width: 200px;
+  height: 150px;
+}
+
+.image3 {
+  width: 120px;
+  height: 140px;
 }
 
 main {
@@ -34,3 +44,6 @@ body {
   font-family: 'Courier New', monospace;
 }
 
+footer {
+  padding-top: 300px;
+}
