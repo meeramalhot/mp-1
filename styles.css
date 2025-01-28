@@ -1,7 +1,10 @@
-nav {
-  float: left;
-  padding-right: 40px;
-  padding-bottom: 500px;
+@media screen and (max-width: 750px) {
+  nav {
+    float: left;
+    padding-right: 40px;
+    padding-bottom: 500px;
+  }
+
 }
 
 
