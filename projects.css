@@ -1,24 +1,21 @@
 nav {
   float: left;
-  padding-right: 40px;
-  padding-bottom: 500px;
+  padding-right: 50px;
+  padding-bottom: 800px;
 }
 
-
-img {
-  width: 300px;
-  height: 400px;
+.image1 {
+  width: 150px;
+  height: 150px;
 }
 
-.three-columns {
-  display:flex;
+.image2 {
+  width: 750px;
+  height: 380px;
+  margin-left: 100px;
+  margin-right: auto;
 }
 
-/* columns */
-.three-columns > * {
-  width:calc(100% / 3);
-  padding:1rem;
-}
 
 main {
   height: 100vh;
@@ -45,3 +42,7 @@ body {
   font-family: 'Courier New', monospace;
 }
 
+
+footer {
+  padding-top: 300px;
+}
