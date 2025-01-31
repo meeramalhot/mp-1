@@ -23,9 +23,22 @@ color:rgb(255, 123, 0);
 }
 
 main {
-  height: 100vh;
+  height: 170vh;
   width: 70%;
   padding: 2vh 2vw;
+}
+
+h2 {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.pi {
+  padding-bottom: 3vh;
+}
+
+table {
+  padding-bottom: 3vh;
 }
 
 .imagebox {
