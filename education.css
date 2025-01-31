@@ -1,49 +1,146 @@
-nav {
-  float: left;
-  padding-right: 40px;
-  padding-bottom: 900px;
-}
-
-.image1 {
-  width: 180px;
-  height: 180px;
-}
-
-.image2 {
-  width: 200px;
-  height: 150px;
-}
-
-.image3 {
-  width: 120px;
-  height: 140px;
-}
-
-main {
-  height: 100vh;
-  padding-right: 80px;
-  padding-top: 3px;
-}
-
-ul {
-  list-style-type: none;
-}
-
-h1 {
-  padding-top: 20px;
-  padding-left: 40px;
-  padding-right: 60px;
-}
-
-h3 {
-  margin-top: 0px;
-  font-style: italic;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: 'Courier New', monospace;
 }
 
+#tag {
+color:rgb(255, 123, 0);
+}
+
+#page-wrapper {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+#bu {
+  padding-bottom: 3vh;
+
+}
+
+.image1 {
+  height: 40vh;
+}
+
+.image2 {
+  width: 60vh;
+  padding-top: 4vh;
+  padding-bottom: 3vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.image3 {
+  height: 30vh;
+
+}
+
+h2 {
+  padding-top: 2vh;
+}
+
+h3 {
+  padding: 1vh;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 229, 190);
+}
+
+main {
+  height: 220vh;
+  width: 70%;
+  padding: 2vh 2vw;
+}
+
+.imagebox {
+display: flex;
+align-items: flex-start;
+}
+
+img {
+margin-right: 15px;
+height: 50vh;
+}
+
+nav {
+  width: 30%;
+  padding-top: 1vh;
+  background-color: rgb(255, 162, 96);
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 5vh;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: calc(2px + 2vw);
+
+}
+
+nav li {
+font-size: calc(3px + 3vw);
+}
+
+
+nav li a {
+  padding: 1vh 1vw;
+  text-decoration: none;
+  font-size: calc(2px + 1vw);
+  color: rgb(0, 0, 0);
+  background-color: #ffe5c6;
+  border-radius: 6vh 3vw;
+
+}
+
+a:active, a:visited {
+color: rgb(0, 0, 0);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 3vh 3vw;
+  background-color: rgb(255, 204, 86);
+  color: rgb(255, 123, 0);
+}
+
 footer {
-  padding-top: 300px;
+  background-color: rgb(255, 204, 86);
+  padding: 3vh 3vw;
+}
+
+@media screen and (max-width: 750px) {
+  header {
+      align-items: center;
+  }
+
+  nav {
+      width: 100%;
+      text-align: center;
+      flex-direction: row;
+      padding-bottom: 1vh;
+  }
+
+  nav ul {
+      flex-direction: row;
+  }
+
+  .container {
+      width: 100%;
+      height: 100vh;
+      flex-direction: column;
+  }
 }
