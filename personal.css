@@ -41,10 +41,7 @@ table {
   padding-bottom: 3vh;
 }
 
-.imagebox {
-display: flex;
-align-items: flex-start;
-}
+
 
 img {
 margin-right: 15px;

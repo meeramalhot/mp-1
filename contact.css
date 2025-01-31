@@ -84,6 +84,31 @@ header {
   color: rgb(255, 123, 0);
 }
 
+.image1 {
+  height:10vh;
+}
+
+.image2 {
+  height:10vh;
+}
+
+.image3 {
+  height:10vh;
+}
+
+.image4 {
+  height:10vh;
+}
+
+#title {
+  padding-bottom: 2vh;
+}
+
+h2 {
+  padding-top: 3vh;
+  padding-bottom: 2vh;
+}
+
 footer {
   background-color: rgb(255, 204, 86);
   padding: 3vh 3vw;
