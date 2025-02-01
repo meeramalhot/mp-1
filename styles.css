@@ -8,8 +8,9 @@ body {
 }
 
 #tag {
-  color:rgb(255, 123, 0);
+    color: rgb(255, 123, 0);
 }
+
 #page-wrapper {
     width: 80vw;
     margin: 0 auto;
@@ -29,13 +30,13 @@ main {
 }
 
 .imagebox {
-  display: flex;
-  align-items: flex-start;
+    display: flex;
+    align-items: flex-start;
 }
 
 img {
-  margin-right: 15px;
-  height: 50vh;
+    margin-right: 15px;
+    height: 50vh;
 }
 
 nav {
@@ -58,7 +59,7 @@ nav ul {
 }
 
 nav li {
-  font-size: calc(3px + 3vw);
+    font-size: calc(3px + 3vw);
 }
 
 
@@ -73,7 +74,7 @@ nav li a {
 }
 
 a:active, a:visited {
-  color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 header {
