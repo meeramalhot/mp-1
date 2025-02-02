@@ -7,6 +7,16 @@ body {
     font-family: 'Courier New', monospace;
 }
 
+p {
+    font-size: calc(2.7vh);
+}
+
+h3 {
+    font-size: calc(4.3vh);
+    color: rgb(255, 123, 0);
+    padding-bottom: 3vh;
+}
+
 #tag {
     color: rgb(255, 123, 0);
 }
@@ -36,7 +46,7 @@ main {
 
 img {
     margin-right: 15px;
-    height: 50vh;
+    height: 55vh;
 }
 
 nav {
