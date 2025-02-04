@@ -31,6 +31,8 @@ h2 {
 
 }
 
+/* add white space for better viewing */
+
 #page-wrapper {
     width: 80vw;
     margin: 0 auto;
@@ -48,6 +50,8 @@ main {
     width: 70%;
     padding: 2vh 2vw;
 }
+
+/* styling nav */
 
 nav {
     width: 30%;
@@ -152,6 +156,7 @@ label {
     text-align: center;
 }
 
+/* styling around calculator */
 #calc {
     background-color: rgb(255, 233, 236);
     border-radius: 10vh;
@@ -164,6 +169,8 @@ label {
 #java {
     padding-bottom: 5vh;
 }
+
+/* making responsive for smaller screens */
 
 @media screen and (max-width: 750px) {
     header {
@@ -185,5 +192,9 @@ label {
         width: 100%;
         height: 100vh;
         flex-direction: column;
+    }
+
+    main {
+        width:600vh;
     }
 }

@@ -11,6 +11,8 @@ body {
     color: rgb(255, 123, 0);
 }
 
+/* add white space for better viewing */
+
 #page-wrapper {
     width: 80vw;
     margin: 0 auto;
@@ -38,6 +40,8 @@ img {
     margin-right: 15px;
     height: 50vh;
 }
+
+/* styling nav */
 
 nav {
     width: 30%;
@@ -72,6 +76,9 @@ nav li a {
     border-radius: 6vh 3vw;
 
 }
+
+/* styling for active and visited links */
+
 
 a:active, a:visited {
     color: rgb(0, 0, 0);
@@ -115,6 +122,9 @@ footer {
     padding: 3vh 3vw;
 }
 
+/* making responsive for smaller screens */
+
+
 @media screen and (max-width: 750px) {
     header {
         align-items: center;
@@ -136,4 +146,9 @@ footer {
         height: 100vh;
         flex-direction: column;
     }
+
+    main {
+        width:400vh;
+    }
+
 }
