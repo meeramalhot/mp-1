@@ -47,8 +47,30 @@
 
             <br>
             <img src="predict.png" alt="stock predictions" class="image2">
-            <h2>JavaScript Calculator</h2>
-
+            <h2 id="java">JavaScript Calculator</h2>
+            <div id = calc>
+            <div id = "labels">
+                <label for="first-number">First number:</label><br>
+                <input type="number" id="first-number" name="first-number"><br>
+                <label for="second-number">Second number:</label><br>
+                <input type="number" id="second-number" name="second-number"><br>
+              </div>
+      
+              
+            <div id = "buttons">
+              <button id="addition" onclick="addition()">+</button>
+              <button id="subtraction" onclick="subtraction()">-</button>
+              <button id="mult" onclick="mult()">x</button>
+              <button id="division" onclick="division()">&#247;</button>
+              <button id="power" onclick="power()">^</button>
+              <button id="clear" onclick="clearout()">clear</button>
+            </div>
+      
+              <div id = out>
+                <p id="output">Insert Numbers for Calculation!</p> 
+              </div>
+            </div>
+              <script src="script.js"></script>
 
         </main>
 

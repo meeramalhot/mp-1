@@ -1,9 +1,6 @@
 * {
     margin: 0;
     box-sizing: border-box;
-}
-
-body {
     font-family: 'Courier New', monospace;
 }
 
@@ -26,6 +23,7 @@ h2 {
 .image2 {
     padding-top: 4vh;
     height: 60vh;
+    padding-bottom: 2vh;
 }
 
 #tag {
@@ -100,6 +98,71 @@ header {
 footer {
     background-color: rgb(255, 204, 86);
     padding: 3vh 3vw;
+}
+
+/* calculator css */ 
+#output {
+    background-color: pink;
+    border: .2vh solid rgb(0, 0, 0);
+    padding:1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-radius: 2vh;
+}
+
+button {
+    border-radius: 2.5vh;
+    background-color: pink;
+    margin: 1.5vh;
+    margin-bottom: 3vh;
+    font-size: 2.3vh;
+}
+  
+#out {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(2.5vh);
+  
+}
+
+#labels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 8vh;
+  
+}
+
+input {
+    width: 8vh;
+    margin-right: 3vh;
+}
+
+label {
+    padding-right: 1vh;
+    font-size: calc(3vh);
+    text-align: center;
+}
+
+#calc {
+    background-color: rgb(255, 233, 236);
+    border-radius: 10vh;
+    padding: 10vh;
+    border-style: solid;
+    border-color: pink;
+    border-width: thick;
+}
+
+#java {
+    padding-bottom: 5vh;
 }
 
 @media screen and (max-width: 750px) {
