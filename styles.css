@@ -124,17 +124,20 @@ footer {
     }
 
     .container {
-        height: 280vh;
+        height: 200vh;
         flex-direction: column;
     }
 
     img {
         visibility: hidden;
         flex-direction: column;
+        height:0vh;
     }
 
-    p {
-    
+    .imagebox {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
 
