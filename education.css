@@ -153,9 +153,6 @@ footer {
         flex-direction: column;
     }
 
-    table {
-        visibility: none;
-    }
     
     img {
         visibility: hidden;
